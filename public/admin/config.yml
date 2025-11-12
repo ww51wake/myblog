@@ -5,7 +5,7 @@ backend:
   base_url: https://mominus.vercel.app     # ← 改成生产域名（指向部署了 OAuth Provider 的站点）
   auth_endpoint: api/auth          # ← 按你选的 provider 要求（常见是 /api/auth）
 
-site_url: https://mominus.vercel.app/
+site_url: https://mominus.vercel.app
 publish_mode: editorial_workflow     # 草稿/审核/发布工作流（建议开启）
 show_preview_links: true
 
